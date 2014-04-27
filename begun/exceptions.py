@@ -17,5 +17,5 @@ class CallError(BaseBegunError):
         super(RequestException, self).__init__(m)
 
 class BadResponse(BaseBegunError):
-    '''sometimes Begun returns not json. Shit happens'''
+    '''sometimes Begun returns not json'''
     pass
